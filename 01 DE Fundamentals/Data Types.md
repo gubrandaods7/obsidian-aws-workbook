@@ -1,5 +1,6 @@
 
 ## 1. Overview
+
 High-level definition of data classification based on structure.
 
 ## 2. Types
