@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileUp",
       "LiInfo",
       "LiFolder"
     ],
@@ -31,7 +32,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "00 Introduction": "LiFolder",
   "01 DE Fundamentals": "LiFolder",
   "02 Database": "LiFolder",
   "03 Migration and Transfer": "LiFolder",
@@ -45,5 +45,6 @@
   "11 Machine Learning": "LiFolder",
   "12 Developer Tools": "LiFolder",
   "13 Others": "LiFolder",
-  "00 Concepts": "LiInfo"
+  "00 Concepts": "LiInfo",
+  "00 Attachments": "LiFileUp"
 }
