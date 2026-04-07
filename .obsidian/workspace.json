@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 DE Fundamentals/Tipo de Dados.md",
+                "file": "01 DE Fundamentals/Propriedade dos Dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipo de Dados"
+              "title": "Propriedade dos Dados"
             }
           }
         ]
@@ -194,6 +194,8 @@
   },
   "active": "487b450741635630",
   "lastOpenFiles": [
+    "01 DE Fundamentals/Tipo de Dados.md",
+    "01 DE Fundamentals/Propriedade dos Dados.md",
     "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565127854",
     "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565024903",
     "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565015338",
@@ -202,11 +204,9 @@
     "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775564999890",
     "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775564993909",
     "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775564990271",
-    "01 DE Fundamentals/Tipo de Dados.md",
     "00 Attachments/Links.md",
     "00 Attachments",
     "00 Introduction/Sem título.md",
-    "00 Concepts/Sem título",
-    "00 Concepts"
+    "00 Concepts/Sem título"
   ]
 }
