@@ -35,8 +35,15 @@ Não são armazenados em base de dados convencionais, mas são usualmente armaze
 
 Por não serem estruturados, eles apresentam uma dificuldade maior para serem análisados, pois não seguem um padrão. Para isso são necessários formas mais sofisticadas de análise, como por exemplo Machine Learning, NLP, para que dessa forma seja possível extrair insights e informações relevantes desses dados.
 
-A grande maioria dados não-estruturados seguem o formato de textos, como por exemplo: e-mails, documentos em Word ou PDFs, posts de blogs e de redes sociais.
-E também a parte não-textual, como arquivos de imagens: GIF, PNG, JPG), videos, dados de atividade de celulares, dados de sensores, etc.
+A grande maioria dados não-estruturados seguem o formato de textos, como por exemplo:
+- E-mails
+- Documentos de texto sem formato fixo, como Words, PDFs
+- Posts de blogs e de redes sociais.
+
+E também a parte não-textual, como:
+- Arquivos de imagens: GIF, PNG, JPG, etc
+- Vídeo: MP4, etc
+- Áudios: MP3, etc
 
 
 ### 3. Semi-Estruturados
