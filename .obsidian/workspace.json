@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f1a4fc40c739ba56",
+        "id": "0a9e2ad212ba017c",
         "type": "tabs",
         "children": [
           {
-            "id": "487b450741635630",
+            "id": "b4c1631aa15044ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "01 DE Fundamentals/Data Mesh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Data Mesh"
             }
           }
         ]
@@ -192,14 +192,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "487b450741635630",
+  "active": "b4c1631aa15044ed",
   "lastOpenFiles": [
+    "01 DE Fundamentals/Data Mash.md",
+    "01 DE Fundamentals/Data Mesh.md",
+    "README.md",
     "00 Attachments/Photos/Pasted image 20260407144113.png",
     "00 Attachments/Links.md",
     "00 Attachments/Photos",
     "00 Attachments/Photos.md",
-    "01 DE Fundamentals/Data Mash.md",
-    "01 DE Fundamentals/Data Mesh.md",
     "01 DE Fundamentals/Data Sources.md",
     "01 DE Fundamentals/Data Sampling Techniques.md",
     "01 DE Fundamentals/Database Performance Optimization.md",
