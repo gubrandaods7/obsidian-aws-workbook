@@ -1,6 +1,4 @@
 
-# Data Mesh
-
 Não se trata de uma tecnologia, mas sim uma **abordagem de governança e organização dos dados** — quem acessa, quem cuida, como é acessada.
 
 ---

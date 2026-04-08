@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0a9e2ad212ba017c",
+        "id": "ce818738cbc45734",
         "type": "tabs",
         "children": [
           {
-            "id": "b4c1631aa15044ed",
+            "id": "16b5c8ea3ff57cdb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01 DE Fundamentals/Data Mesh.md",
-                "mode": "source",
-                "source": false
+                "file": "00 Attachments/Photos/Pasted image 20260408152254.png"
               },
-              "icon": "lucide-file",
-              "title": "Data Mesh"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260408152254"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.51103591918945
+    "width": 368.51103591918945
   },
   "right": {
     "id": "65f26c7de5b98c3c",
@@ -154,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02 Storage/Amazon S3 - Storage Classes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de Amazon S3 - Storage Classes"
             }
           },
           {
@@ -177,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 382.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,40 +192,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4c1631aa15044ed",
+  "active": "a6b347b381ddd65a",
   "lastOpenFiles": [
-    "01 DE Fundamentals/Data Mash.md",
-    "01 DE Fundamentals/Data Mesh.md",
+    "02 Storage/Amazon S3 - Baseline Performance.md",
+    "02 Storage/Creating a Bucket.md",
+    "02 Storage/Amazon S3 - Events Notification.md",
+    "00 Attachments/Photos/Pasted image 20260408152254.png",
+    "00 Attachments/Photos/Pasted image 20260408152240.png",
+    "00 Attachments/Photos/Pasted image 20260408152200.png",
+    "00 Attachments/Photos/Pasted image 20260408152135.png",
+    "00 Attachments/Photos/Pasted image 20260408152044.png",
+    "00 Attachments/Photos/Pasted image 20260408151707.png",
+    "00 Attachments/Photos/Pasted image 20260408151547.png",
+    "00 Attachments/Photos/Pasted image 20260408151438.png",
+    "00 Attachments/Photos/Pasted image 20260408151224.png",
+    "00 Attachments/Photos/Pasted image 20260408150856.png",
+    "02 Storage/Amazon S3 - Events Notification.md.tmp.31472.1775671001411",
+    "02 Storage/Amazon S3 - Events Notification.md.tmp.31472.1775670798385",
+    "02 Storage/Amazon S3 - Storage Classes.md",
+    "02 Storage/Amazon S3 - Lifecycle Rules.md",
+    "02 Storage/Amazon S3 - Express One Zone.md",
+    "02 Storage/Amazon S3 - Lifecycle Rules.md.tmp.31472.1775669308697",
+    "02 Storage/Amazon S3 - Replication Time Control (RTC).md",
+    "02 Storage/Amazon S3 - Replication (CRR & SRR).md",
+    "02 Storage/Amazon S3 - Versioning.md",
     "README.md",
-    "00 Attachments/Photos/Pasted image 20260407144113.png",
     "00 Attachments/Links.md",
-    "00 Attachments/Photos",
+    "02 Storage/Amazon S3.md",
+    "02 Storage/Amazon S3 - Security.md",
+    "02 Storage/Amazon S3 - Replication (CRR & SRR).md.tmp.31472.1775656630823",
+    "02 Storage/Amazon S3 - Security.md.tmp.31472.1775655563008",
+    "Excalidraw/Drawing 2026-04-08 09.01.19.excalidraw.md",
+    "Excalidraw/desktop.ini",
+    "Excalidraw",
+    "02 Storage/Amazon S3.md.tmp.31472.1775649446823",
+    "02 Storage/desktop.ini",
+    "01 DE Fundamentals/Tipo de Dados.md",
+    "01 DE Fundamentals/Data Mesh.md",
+    "01 DE Fundamentals/Data Sampling Techniques.md",
+    "02 Storage",
+    "01 DE Fundamentals/Data Sampling.md",
+    "01 DE Fundamentals/Data Skew.md",
+    "01 DE Fundamentals/Data Mash.md",
     "00 Attachments/Photos.md",
     "01 DE Fundamentals/Data Sources.md",
-    "01 DE Fundamentals/Data Sampling Techniques.md",
     "01 DE Fundamentals/Database Performance Optimization.md",
-    "00 Attachments/Photos/Pasted image 20260407144050.png",
-    "01 DE Fundamentals/Tipo de Dados.md",
     "01 DE Fundamentals/Propriedade dos Dados.md",
     "01 DE Fundamentals/ETL Pipelines.md",
-    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md",
-    "00 Attachments/Photos/Pasted image 20260407095743.png",
-    "00 Attachments/Photos/Pasted image 20260407111023.png",
-    "00 Attachments/Photos/Pasted image 20260407110949.png",
-    "00 Attachments/Photos/Pasted image 20260407105844.png",
-    "01 DE Fundamentals/Data Modeling.md",
-    "01 DE Fundamentals/Propriedade dos Dados.md.tmp.36184.1775576582207",
-    "01 DE Fundamentals/Data Mesh.md.tmp.36184.1775576550588",
-    "01 DE Fundamentals/Data Modeling.md.tmp.36184.1775576513973",
-    "01 DE Fundamentals/ETL Pipelines.md.tmp.36184.1775576470809",
-    "Pasted image 20260407110547.png",
-    "Pasted image 20260407102103.png",
-    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md.tmp.36184.1775567216259",
-    "conflict-files-obsidian-git.md",
-    "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565127854",
-    "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565024903",
-    "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565015338",
-    "01 DE Fundamentals/Tipo de Dados.md.tmp.36184.1775565011192",
-    "00 Introduction/Sem título.md"
+    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md"
   ]
 }
