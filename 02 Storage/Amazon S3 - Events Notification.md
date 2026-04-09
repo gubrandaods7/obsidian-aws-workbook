@@ -1,4 +1,21 @@
 
+## Índice
+
+- [[#O que são e por que existem]]
+- [[#Como funcionam internamente]]
+- [[#Eventos Disponíveis]]
+- [[#Destinos e Quando Usar Cada Um]]
+  - [[#SNS — Simple Notification Service]]
+  - [[#SQS — Simple Queue Service]]
+  - [[#Lambda]]
+  - [[#EventBridge]]
+- [[#Caso de Uso Clássico]]
+- [[#IAM Permissions — Resource Policies]]
+- [[#S3 Event Notifications com Amazon EventBridge]]
+- [[#Hands On]]
+
+---
+
 ## O que são e por que existem
 
 Sem Event Notifications, o S3 é **passivo**: você armazena e recupera arquivos, mas ninguém sabe que um arquivo chegou — a menos que algum sistema vá lá verificar ativamente (polling).

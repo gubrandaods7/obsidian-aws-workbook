@@ -1,4 +1,17 @@
 
+## Índice
+
+- [[#Tipos de Segurança]]
+  - [[#User-Based]]
+  - [[#Resource-Based]]
+  - [[#Block Public Access]]
+  - [[#Encryption]]
+- [[#S3 Bucket Policies]]
+  - [[#Exemplos — Types of Policy]]
+  - [[#Hands-on — Criando Public Access Policy]]
+
+---
+
 # Tipos de Segurança
 
 ## User-Based

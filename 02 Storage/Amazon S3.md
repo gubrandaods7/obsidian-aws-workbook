@@ -1,6 +1,22 @@
-# Amazon S3
 
 Amazon S3 (Simple Storage Service) é o serviço de armazenamento de objetos da AWS e um dos principais blocos de construção da plataforma. Funciona como a "espinha dorsal" de inúmeros serviços AWS e é a base de praticamente qualquer arquitetura de Data Lake na nuvem.
+
+## Índice
+
+- [[#Casos de Uso]]
+- [[#Buckets]]
+- [[#Objects (Objetos)]]
+- [[#Segurança]]
+- [[#Versionamento]]
+- [[#Storage Classes]]
+- [[#Lifecycle Policies]]
+- [[#Replicação]]
+- [[#Performance]]
+- [[#Event Notifications]]
+- [[#S3 como Data Lake]]
+- [[#Integração com Serviços AWS]]
+- [[#Preços (conceitos)]]
+- [[#Boas Práticas para Data Engineering]]
 
 ---
 

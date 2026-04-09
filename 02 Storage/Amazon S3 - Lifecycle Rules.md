@@ -3,6 +3,17 @@ Lifecycle Rules são políticas que automatizam a **transição entre Storage Cl
 
 Sem Lifecycle Rules, objetos permanecem na classe original para sempre — gerando custo desnecessário conforme os dados envelhecem e são acessados com menos frequência.
 
+## Índice
+
+- [[#Tipos de Ação]]
+- [[#Transition Actions]]
+- [[#Expiration Actions]]
+- [[#Filtros de Escopo]]
+- [[#Lifecycle Rules e Versionamento]]
+- [[#Exemplo: Data Lake com Lifecycle]]
+- [[#Onde Configurar]]
+- [[#Boas Práticas]]
+
 ---
 
 ## Tipos de Ação

@@ -1,6 +1,4 @@
 
-# Amazon S3 - Versioning
-
 O versionamento permite manter múltiplas versões de um mesmo objeto dentro de um bucket.
 
 - Habilitado no **nível do bucket**
@@ -8,6 +6,17 @@ O versionamento permite manter múltiplas versões de um mesmo objeto dentro de 
 - Quando suspenso, versões anteriores são preservadas; novos uploads recebem version ID `null`
 
 ![[Pasted image 20260408103725.png]]
+
+## Índice
+
+- [[#Por que usar Versionamento?]]
+- [[#Como funciona]]
+- [[#Objetos anteriores ao versionamento]]
+- [[#Suspensão do Versionamento]]
+- [[#Integração com Lifecycle Policies]]
+- [[#Integração com Replicação]]
+- [[#Boas Práticas]]
+- [[#Hands-on - Versioning]]
 
 ---
 

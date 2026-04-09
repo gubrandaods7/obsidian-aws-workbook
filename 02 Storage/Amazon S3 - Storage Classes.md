@@ -1,6 +1,20 @@
 
 Ao criar um objeto no S3, você escolhe (ou o S3 gerencia automaticamente) em qual Storage Class ele será armazenado. A escolha impacta diretamente custo, latência de acesso e disponibilidade.
 
+## Índice
+
+- [[#Durability vs Availability]]
+- [[#Tabela Comparativa]]
+- [[#S3 Standard — General Purpose]]
+- [[#S3 Standard-IA (Infrequent Access)]]
+- [[#S3 One Zone-IA]]
+- [[#S3 Glacier Instant Retrieval]]
+- [[#S3 Glacier Flexible Retrieval]]
+- [[#S3 Glacier Deep Archive]]
+- [[#S3 Intelligent-Tiering]]
+- [[#Como Escolher a Storage Class]]
+- [[#Contexto em Data Lakes]]
+
 ---
 
 ## Durability vs Availability
@@ -78,11 +92,12 @@ Ao criar um objeto no S3, você escolhe (ou o S3 gerencia automaticamente) em qu
 
 - Arquivamento de custo baixo com **3 opções de velocidade**:
 
-| Opção | Tempo | Custo de retrieval |
-|---|---|---|
+| Opção         | Tempo         | Custo de retrieval       |
+| ------------- | ------------- | ------------------------ |
 | **Expedited** | 1 a 5 minutos | Cobrado por GB + request |
-| **Standard** | 3 a 5 horas | Cobrado por GB + request |
-| **Bulk** | 5 a 12 horas | Gratuito |
+| **Standard**  | 3 a 5 horas   | Cobrado por GB + request |
+| **Bulk**      | 5 a 12 horas  | Gratuito                 |
+
 
 - Mínimo de **90 dias** de armazenamento
 

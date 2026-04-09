@@ -1,4 +1,18 @@
 
+## Índice
+
+- [[#Pré-requisitos]]
+- [[#Casos de Uso]]
+- [[#Comportamentos Importantes]]
+- [[#Filtros de Replicação]]
+- [[#Storage Class no Destino]]
+- [[#Replication Time Control (RTC)]]
+- [[#Segurança e Criptografia]]
+- [[#Replicação em Data Lakes]]
+- [[#Hands-on - SRR]]
+
+---
+
 | Tipo | Nome completo | Escopo |
 |---|---|---|
 | **CRR** | Cross-Region Replication | Buckets em regiões diferentes |
