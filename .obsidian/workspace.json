@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ce818738cbc45734",
+        "id": "978bda7605160c3f",
         "type": "tabs",
         "children": [
           {
-            "id": "16b5c8ea3ff57cdb",
+            "id": "7a7e42dbda126c55",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "00 Attachments/Photos/Pasted image 20260408152254.png"
+                "file": "02 Storage/Amazon S3 - Tables.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260408152254"
+              "icon": "lucide-file",
+              "title": "Amazon S3 - Tables"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.51103591918945
+    "width": 339.51103591918945
   },
   "right": {
     "id": "65f26c7de5b98c3c",
@@ -192,53 +194,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6b347b381ddd65a",
+  "active": "7a7e42dbda126c55",
   "lastOpenFiles": [
-    "02 Storage/Amazon S3 - Baseline Performance.md",
-    "02 Storage/Creating a Bucket.md",
-    "02 Storage/Amazon S3 - Events Notification.md",
-    "00 Attachments/Photos/Pasted image 20260408152254.png",
-    "00 Attachments/Photos/Pasted image 20260408152240.png",
-    "00 Attachments/Photos/Pasted image 20260408152200.png",
-    "00 Attachments/Photos/Pasted image 20260408152135.png",
-    "00 Attachments/Photos/Pasted image 20260408152044.png",
-    "00 Attachments/Photos/Pasted image 20260408151707.png",
-    "00 Attachments/Photos/Pasted image 20260408151547.png",
-    "00 Attachments/Photos/Pasted image 20260408151438.png",
-    "00 Attachments/Photos/Pasted image 20260408151224.png",
-    "00 Attachments/Photos/Pasted image 20260408150856.png",
-    "02 Storage/Amazon S3 - Events Notification.md.tmp.31472.1775671001411",
-    "02 Storage/Amazon S3 - Events Notification.md.tmp.31472.1775670798385",
-    "02 Storage/Amazon S3 - Storage Classes.md",
-    "02 Storage/Amazon S3 - Lifecycle Rules.md",
-    "02 Storage/Amazon S3 - Express One Zone.md",
-    "02 Storage/Amazon S3 - Lifecycle Rules.md.tmp.31472.1775669308697",
-    "02 Storage/Amazon S3 - Replication Time Control (RTC).md",
+    "Pasted image 20260410152139.png",
+    "Pasted image 20260410152129.png",
+    "Pasted image 20260410152127.png",
+    "Pasted image 20260410152107.png",
+    "02 Storage/Amazon S3 - Tables.md.tmp.38760.1775843190393",
+    "Pasted image 20260410144340.png",
+    "Pasted image 20260410143541.png",
+    "00 Attachments/Photos/Pasted image 20260410134657.png",
+    "00 Attachments/Photos/Pasted image 20260410134506.png",
+    "00 Attachments/Photos/Pasted image 20260410134405.png",
+    "00 Attachments/Photos/Pasted image 20260409132610.png",
+    "00 Attachments/Photos/Pasted image 20260409130805.png",
+    "02 Storage/Amazon S3 - Security.md",
     "02 Storage/Amazon S3 - Replication (CRR & SRR).md",
+    "02 Storage/Amazon S3 - Events Notification.md",
+    "02 Storage/Amazon S3.md",
+    "02 Storage/Amazon S3 - Access Points.md",
     "02 Storage/Amazon S3 - Versioning.md",
+    "02 Storage/Amazon S3 - Storage Classes.md",
+    "02 Storage/Amazon S3 - Object Encryption.md",
+    "02 Storage/Amazon S3 - Lifecycle Rules.md",
+    "02 Storage/Amazon S3 - Tables.md",
+    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md",
+    "01 DE Fundamentals/Data Sources.md",
+    "01 DE Fundamentals/Data Sampling Techniques.md",
+    "01 DE Fundamentals/Data Sampling.md",
+    "01 DE Fundamentals/Data Modeling.md",
+    "02 Storage/Amazon S3 - Baseline Performance.md",
+    "02 Storage/Amazon S3 - Replication Time Control (RTC).md",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775753634979",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751960933",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751952760",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751944742",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751871749",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751250799",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751028040",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775750974683",
+    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775750848504",
+    "02 Storage/Amazon S3 - Express One Zone.md",
+    "02 Storage/Creating a Bucket.md",
     "README.md",
     "00 Attachments/Links.md",
-    "02 Storage/Amazon S3.md",
-    "02 Storage/Amazon S3 - Security.md",
-    "02 Storage/Amazon S3 - Replication (CRR & SRR).md.tmp.31472.1775656630823",
-    "02 Storage/Amazon S3 - Security.md.tmp.31472.1775655563008",
     "Excalidraw/Drawing 2026-04-08 09.01.19.excalidraw.md",
-    "Excalidraw/desktop.ini",
-    "Excalidraw",
-    "02 Storage/Amazon S3.md.tmp.31472.1775649446823",
-    "02 Storage/desktop.ini",
     "01 DE Fundamentals/Tipo de Dados.md",
     "01 DE Fundamentals/Data Mesh.md",
-    "01 DE Fundamentals/Data Sampling Techniques.md",
-    "02 Storage",
-    "01 DE Fundamentals/Data Sampling.md",
-    "01 DE Fundamentals/Data Skew.md",
-    "01 DE Fundamentals/Data Mash.md",
-    "00 Attachments/Photos.md",
-    "01 DE Fundamentals/Data Sources.md",
-    "01 DE Fundamentals/Database Performance Optimization.md",
-    "01 DE Fundamentals/Propriedade dos Dados.md",
-    "01 DE Fundamentals/ETL Pipelines.md",
-    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md"
+    "01 DE Fundamentals/Data Skew.md"
   ]
 }
