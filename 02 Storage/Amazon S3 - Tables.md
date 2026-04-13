@@ -55,12 +55,12 @@ Essa hierarquia de metadados é o que permite as features avançadas do Iceberg:
 
 ### ACID Compliance
 
-| Propriedade | Significado | Benefício |
-|---|---|---|
-| **Atomicity** | Operação inteira falha ou tem sucesso — sem estado parcial | Não há dados corrompidos por falhas de job |
-| **Consistency** | Cada transação leva o banco de um estado válido para outro | Invariantes de schema sempre respeitados |
-| **Isolation** | Leituras e escritas concorrentes não se interferem | Queries não leem dados "em meio" a um write |
-| **Durability** | Uma vez confirmada, a transação persiste | Dados não se perdem mesmo com falha após o commit |
+| Propriedade     | Significado                                                | Benefício                                         |
+| --------------- | ---------------------------------------------------------- | ------------------------------------------------- |
+| **Atomicity**   | Operação inteira falha ou tem sucesso — sem estado parcial | Não há dados corrompidos por falhas de job        |
+| **Consistency** | Cada transação leva o banco de um estado válido para outro | Invariantes de schema sempre respeitados          |
+| **Isolation**   | Leituras e escritas concorrentes não se interferem         | Queries não leem dados "em meio" a um write       |
+| **Durability**  | Uma vez confirmada, a transação persiste                   | Dados não se perdem mesmo com falha após o commit |
 
 > Antes do Iceberg, o S3 era apenas eventually consistent (resolvido em 2020 com strong consistency). Mas ter read-after-write não é suficiente para analytics — você precisa de isolamento entre transações concorrentes, que o Iceberg entrega.
 
@@ -218,8 +218,6 @@ A compaction automática garante que arquivos sempre estejam em tamanho ótimo. 
 ### Por que 10x mais transações?
 
 O modelo de metadados do S3 Tables é otimizado para alta concorrência de escritas. No Iceberg manual no S3, conflitos de commit em alta concorrência requerem retries. O S3 Tables resolve isso com controle de concorrência otimista gerenciado pelo serviço.
-
-![[Pasted image 20260410134506.png]]
 
 ---
 
@@ -380,20 +378,86 @@ Fontes de dados
 
 ![[Pasted image 20260410152107.png]]
 
-![[Pasted image 20260410152129.png]]
+![[Pasted image 20260413093737.png]]
 
-![[Pasted image 20260410152139.png]]
+![[Pasted image 20260413093754.png]]
 
-2. Dentro da Table Bucket criada, criar a Namespace. Depois criar
+![[Pasted image 20260413093809.png]]
 
-| Athena UI                       | Conceito real    |
-| ------------------------------- | ---------------- |
-| Data source (AwsDataCatalog)    | Glue Catalog     |
-| Catalog (`s3tablescatalog/...`) | **Table Bucket** |
-| Database (`us_data`)            | **Namespace**    |
-| Table (`state_population`)      | Table            |
-AwsDataCatalog -> Ele está ali porque o Athena precisa de um **catálogo de metadados** para saber quais tabelas existem.
- └── s3tablescatalog/gustavo-brandao...   ← Table Bucket
-       └── us_data                        ← Namespace
-             └── state_population        ← Table
-    
+2. Dentro da Table Bucket criada, criar a Namespace.
+
+`census`
+![[Pasted image 20260413093929.png]]
+
+`us_data_demo`
+![[Pasted image 20260413093958.png]]
+
+![[Pasted image 20260413094014.png]]
+
+3. Antes de criar a tabela, tem que existir um S3 Bucket pros resultados das queries. Criar um Bucket pra isso.
+
+`gustavo-athena-results`
+![[Pasted image 20260413095818.png]]
+
+![[Pasted image 20260413094059.png|686]]
+
+![[Pasted image 20260413094116.png]]
+
+![[Pasted image 20260413095921.png]]
+
+![[Pasted image 20260413095927.png]]
+
+4. Criar via SQL as tabelas
+
+![[Pasted image 20260413100015.png]]
+
+```SQL
+CREATE TABLE `us_data_demo`.state_population (
+state string, 
+year int, 
+population bigint)
+PARTITIONED BY (year)
+TBLPROPERTIES ('table_type' = 'iceberg')
+```
+
+5. Popular com dados via comando SQL
+
+![[Pasted image 20260413100307.png]]
+
+```SQL
+INSERT INTO us_data.state_population
+VALUES
+('Alabama', 2020, 5032962),
+('Alabama', 2021, 5050058),
+('Alabama', 2022, 5076868),
+('Alabama', 2023, 5117850),
+('Alabama', 2024, 5163055),
+
+('Alaska',  2020,  732906),
+('Alaska',  2021,  734590),
+('Alaska',  2022,  733659),
+('Alaska',  2023,  734654),
+('Alaska',  2024,  736537);
+```
+
+
+6. Exemplo de query
+
+![[Pasted image 20260413100406.png]]
+
+```SQL
+SELECT
+  state,
+  COUNT(*)        AS years_of_data,
+  MIN(population) AS min_population,
+  MAX(population) AS max_population,
+  AVG(population) AS avg_population
+FROM us_data.state_population
+GROUP BY state
+ORDER BY avg_population DESC;
+```
+
+Então:
+
+S3 Table -> Namespaces (Análogo a uma database) -> Tables
+`census` -> `us_data_demo` -> `state_population`
