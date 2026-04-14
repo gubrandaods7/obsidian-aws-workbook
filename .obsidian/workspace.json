@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "978bda7605160c3f",
+        "id": "f8d0126df108e4bc",
         "type": "tabs",
         "children": [
           {
-            "id": "7a7e42dbda126c55",
+            "id": "1d9a7947b9500423",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Storage/Amazon S3 - Tables.md",
+                "file": "02 Storage/Amazon S3 - EFS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon S3 - Tables"
+              "title": "Amazon S3 - EFS"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 325.51103591918945
   },
   "right": {
     "id": "65f26c7de5b98c3c",
@@ -194,35 +194,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a7e42dbda126c55",
+  "active": "1d9a7947b9500423",
   "lastOpenFiles": [
-    "Pasted image 20260410152139.png",
-    "Pasted image 20260410152129.png",
-    "Pasted image 20260410152127.png",
-    "Pasted image 20260410152107.png",
+    "02 Storage/Amazon S3 - EFS.md.tmp.31284.1776184308839",
+    "02 Storage/Amazon S3 - EFS.md.tmp.31284.1776184188978",
+    "Pasted image 20260414130928.png",
+    "02 Storage/Amazon S3 - EBS.md",
+    "02 Storage/Amazon S3 - EFS.md",
+    "00 Attachments/Photos/Pasted image 20260413093737.png",
+    "04 Analytics/Amazon - Athena.md",
+    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md",
+    "01 DE Fundamentals/Data Sources.md",
+    "01 DE Fundamentals/Data Skew.md",
+    "01 DE Fundamentals/Data Sampling.md",
+    "01 DE Fundamentals/Data Modeling.md",
+    "01 DE Fundamentals/Data Mesh.md",
+    "02 Storage/Amazon S3 - EBS.md.tmp.7768.1776096048419",
+    "00 Attachments/Photos/Pasted image 20260413103156.png",
+    "00 Attachments/Photos/Pasted image 20260413103129.png",
+    "02 Storage/Amazon S3 - Storage Lens.md",
+    "00 Attachments/Photos/Pasted image 20260413101625.png",
+    "00 Attachments/Photos/Pasted image 20260413101610.png",
+    "00 Attachments/Photos/Pasted image 20260413101548.png",
+    "00 Attachments/Photos/Pasted image 20260413101525.png",
+    "00 Attachments/Photos/Pasted image 20260413101159.png",
+    "02 Storage/Amazon S3 - Versioning.md",
+    "02 Storage/Amazon S3.md",
+    "02 Storage/Amazon S3 - Lifecycle Rules.md",
+    "02 Storage/Amazon S3 - Tables.md",
+    "00 Attachments/Photos/Pasted image 20260413100406.png",
+    "README.md",
+    "02 Storage/Amazon S3 - Access Points.md",
     "02 Storage/Amazon S3 - Tables.md.tmp.38760.1775843190393",
-    "Pasted image 20260410144340.png",
-    "Pasted image 20260410143541.png",
-    "00 Attachments/Photos/Pasted image 20260410134657.png",
-    "00 Attachments/Photos/Pasted image 20260410134506.png",
-    "00 Attachments/Photos/Pasted image 20260410134405.png",
-    "00 Attachments/Photos/Pasted image 20260409132610.png",
-    "00 Attachments/Photos/Pasted image 20260409130805.png",
     "02 Storage/Amazon S3 - Security.md",
     "02 Storage/Amazon S3 - Replication (CRR & SRR).md",
     "02 Storage/Amazon S3 - Events Notification.md",
-    "02 Storage/Amazon S3.md",
-    "02 Storage/Amazon S3 - Access Points.md",
-    "02 Storage/Amazon S3 - Versioning.md",
     "02 Storage/Amazon S3 - Storage Classes.md",
     "02 Storage/Amazon S3 - Object Encryption.md",
-    "02 Storage/Amazon S3 - Lifecycle Rules.md",
-    "02 Storage/Amazon S3 - Tables.md",
-    "01 DE Fundamentals/Data Warehouse vs Data Lakes.md",
-    "01 DE Fundamentals/Data Sources.md",
     "01 DE Fundamentals/Data Sampling Techniques.md",
-    "01 DE Fundamentals/Data Sampling.md",
-    "01 DE Fundamentals/Data Modeling.md",
     "02 Storage/Amazon S3 - Baseline Performance.md",
     "02 Storage/Amazon S3 - Replication Time Control (RTC).md",
     "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775753634979",
@@ -232,15 +241,6 @@
     "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751871749",
     "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751250799",
     "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775751028040",
-    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775750974683",
-    "02 Storage/Amazon S3 - Access Points.md.tmp.7848.1775750848504",
-    "02 Storage/Amazon S3 - Express One Zone.md",
-    "02 Storage/Creating a Bucket.md",
-    "README.md",
-    "00 Attachments/Links.md",
-    "Excalidraw/Drawing 2026-04-08 09.01.19.excalidraw.md",
-    "01 DE Fundamentals/Tipo de Dados.md",
-    "01 DE Fundamentals/Data Mesh.md",
-    "01 DE Fundamentals/Data Skew.md"
+    "02 Storage/Amazon S3 - Express One Zone.md"
   ]
 }

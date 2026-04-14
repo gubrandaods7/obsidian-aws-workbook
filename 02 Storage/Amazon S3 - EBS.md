@@ -6,6 +6,7 @@ EBS (Elastic Block Store) é um serviço de armazenamento em bloco da AWS que fu
 - [[#Características Principais]]
 - [[#Como o EBS Funciona]]
 - [[#Delete on Termination]]
+- [[#Hands On]]
 
 ---
 
@@ -50,3 +51,9 @@ Controla o que acontece com o volume EBS quando a instância EC2 associada é **
 |---|---|
 | Disco raiz (root) | **Ativado** por padrão |
 | Discos adicionais | **Desativado** por padrão |
+
+## Hands On
+
+1. Criar uma nova instância EC2
+2. Criar um novo Volume
+	1. Attach do Volume criado com o EC2

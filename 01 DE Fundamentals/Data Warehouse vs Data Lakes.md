@@ -46,7 +46,7 @@ Repositório centralizado otimizado para análises onde dados que diferentes fon
 - Integração dos dados de diferentes fontes é essencial
 - BI e Analytics são os principais recursos que buscamos
 
-#### Escolher Data Lake Warehouse quando
+#### Escolher Data Lake quando
 - Os dados que possuímos são um mix de estruturados, não estruturados e semi-estruturados
 - É necessário uma estrutura escalável e de baixo custo para guardar grandes volumes de dados
 - Não existe definição exata do que sera feito com os dados, e você precisa de flexibilidade no armazenamento e processamento
